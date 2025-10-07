@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:Comic Neue 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -203,8 +203,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-		font pango:DejaVu Sans Mono 8
-		separator_symbol "::"	
+		font pango:Comic Neue 10
+		separator_symbol "⭐"	
     colors {
         background #000000
         statusline #ffffff
@@ -220,6 +220,6 @@ bar {
 
 
 
-exec_always nitrogen --set-scaled Imagens/Wallpaper/screenshot_4090da91-6409-44c1-bed9-ac8d2beacf2e.jpg
+exec_always nitrogen --set-scaled Imagens/Wallpapers/kitty.jpg
 
-exec_always picom
+#exec --no-startup-id picom --config ~/.config/picom/picom.conf
