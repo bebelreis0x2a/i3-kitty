@@ -204,7 +204,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 		font pango:Comic Neue 10
-		separator_symbol "⭐"	
+		separator_symbol " ✿ "	
     colors {
         background #000000
         statusline #ffffff
